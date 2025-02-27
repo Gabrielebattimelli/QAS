@@ -180,7 +180,7 @@
         headerRow.appendChild(th);
 
         // Aggiungi le colonne nel menu a tendina
-        if (index >= 2) { // Non aggiungere al selettore le colonne nascoste
+        if (index >= 1) { // Non aggiungere al selettore le colonne nascoste
             const option = document.createElement('option');
             option.value = index;
             option.textContent = header;
